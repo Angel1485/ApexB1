@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inicio ApexB1</title>
+  <title>Contactos</title>
   <link rel="stylesheet" href="css/estilos.css" />
 </head>
 <body>
 
     <header>
-        <h1>Reseñas de Libros, Películas y Videojuegos</h1>
+     <h1>Contactos</h1>
     </header>
 
     <nav>
@@ -23,9 +23,21 @@
     </nav>
 
     <main>
-        <h2>Bienvenido a nuestro sitio de reseñas</h2>
-        <p>Este sitio está dedicado a ofrecerte recomendaciones cuidadosamente seleccionadas de libros, películas y videojuegos. Nuestro objetivo es ayudarte a descubrir nuevas obras que te inspiren, entretengan y sorprendan.</p>
-        <p>Explora nuestras páginas de reseñas para encontrar títulos que te encantarán. Ya sea que busques una buena lectura, una película impactante o una aventura virtual inolvidable, aquí encontrarás opciones destacadas.</p>
+        <h2>Contacto</h2>
+        <p>¿Tienes sugerencias de libros, películas o videojuegos? Envíanos tu recomendación.</p>
+
+        <form>
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" required><br /><br />
+
+        <label for="email">Correo:</label><br />
+        <input type="email" id="email" name="email" required><br /><br />
+
+        <label for="mensaje">Sugerencia:</label><br />
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br /><br />
+
+        <button type="submit">Enviar</button>
+        </form>
     </main>
 
     <footer>
